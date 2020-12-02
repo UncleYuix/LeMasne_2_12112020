@@ -62,35 +62,26 @@ nav {
   flex: row;
 }
 
-.navinscrire { 
+.navinscrire {
   order: 1;
   font-weight: bold;
-  }
+}
 
-  .navinscrire {
-    margin-top: 15px;
-  }
-
+.navinscrire {
+  margin-top: 15px;
+}
 
 .entete a {
   text-decoration: none;
   margin: 40px;
 }
 
-.entete a:first-child,
-.entete a:last-child {
+.navinscrire a {
   color: blue;
 }
 
 /* ----------- bloc page ----------*/
 
-nav,
-header,
-.logements,
-.article3 {
-  margin-right: 3%;
-  margin-left: 3%;
-}
 
 
 /* ------ header ---------*/
@@ -218,6 +209,7 @@ input[type="submit"] {
   background-color: #f2f2f2;
   max-width: 65%;
   border-radius: 20px;
+  align-items: center;
 }
 
 #Hebergements {
@@ -229,7 +221,7 @@ input[type="submit"] {
   flex-wrap: wrap;
   margin-left: 5%;
   margin-right: 5%;
-  align-items: center;
+  justify-content: center;
 }
 
 .hotel img {
@@ -251,12 +243,10 @@ input[type="submit"] {
 .hotel {
   background-color: white;
   border-radius: 20px;
-  flex-wrap: wrap;
   margin-bottom: 30px;
   margin-right: 20px;
   margin-top: 20px;
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.35);
-  display: inline;
 }
 
 .soushotel {
@@ -371,7 +361,7 @@ input[type="submit"] {
 .acti,
 .grand {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
-  margin-right: 40px;
+  margin-right: 50px;
   margin-bottom: 20px;
   border-radius: 0 0 20px 20px;
 }
@@ -418,8 +408,28 @@ ul {
     height: auto;
   }
 
-  
+  .navrespon,
+  .navinscrire {
+    padding-top: 40px;
+  }
 
+  .entete a {
+    font-weight: bold;
+  }
+
+  a:hover {
+    border-top: 3px solid blue;
+    padding-top: 40px;
+    color: blue;
+  }
+
+  nav,
+header,
+.logements,
+.article3 {
+  margin-right: 3%;
+  margin-left: 3%;
+}
 }
 
 /* marche toujours pas donc j'ai mis des iiiiiiiiiii */
@@ -435,12 +445,19 @@ ul {
 
   .entete {
     font-size: 20px;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
   }
-  
-  .navinscrire
-  { margin-left: 60px}
+
+  .navrespon {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navinscrire {
+    margin-left: 50px;
+  }
 
   .navinscrire a:link {
     font-weight: bold;
@@ -479,7 +496,6 @@ ul {
   .sousmotel {
     width: 180px;
   }
-
 
   .article2 {
     background-color: white;
@@ -531,6 +547,12 @@ ul {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    margin: 0px;
+  }
+
+
+
   nav {
     margin-left: 5px;
     margin-right: 5px;
@@ -538,35 +560,41 @@ ul {
 
   .navinscrire a:link {
     font-weight: bold;
-  } 
-  
+  }
+
   nav img {
     margin-top: 0px;
   }
 
-  nav{
+  nav {
     display: inline;
   }
 
   .navinscrire {
-    margin-left: -150px;
+    margin-left: -155px;
     margin-top: -40px;
     font-size: 20px;
+    width: auto;
+  }
+
+  .navinscrire a {
+    width: auto;
   }
 
   .navrespon {
-    margin-left: -50px;
+    margin-left: -48px;
     font-size: 20px;
+    border-bottom: 3px solid rgb(187, 184, 184);
   }
 
-  .navrespon li:first-child {
+  .navrespon li:first-child a:hover {
     padding-bottom: 20px;
     border-bottom: 5px solid blue;
   }
 
-  .navrespon li:last-child {
-    color: grey;
-    border-bottom: 5px solid rgb(199, 198, 198);
+  .navrespon li:last-child a:hover {
+    padding-bottom: 20px;
+    border-bottom: 5px solid grey;
   }
 
   input[type="submit"] {
@@ -648,6 +676,7 @@ ul {
   .afficher,
   .gauche {
     background-color: white;
+    margin-left: 15%;
   }
 
   .droite {
@@ -676,12 +705,13 @@ ul {
   .droite,
   .motel,
   .sousmotel {
-    margin-left: -10px;
+    margin-left: -5px;
   }
 
   .article2 {
     padding-left: 1%;
     background-color: #f2f2f2;
+    border-radius: 0px;
     width: 100%;
   }
 
@@ -691,11 +721,11 @@ ul {
 
   /* ---------- article3 mobile --------- */
 
-  
+ 
+  /* margin-left: 25px; */
 
-  .tourisme {
-    justify-content: center;
-    margin-left: 25px;
+  .article3 {
+    margin-left: 15px
   }
 
   h5 {
@@ -708,7 +738,8 @@ ul {
   .grand,
   .acti {
     height: 20%;
-    
+    margin-bottom: 40px;
+    margin-right: 1px;
   }
 
   .acti p,
@@ -718,6 +749,7 @@ ul {
 
   .responsive {
     height: 120px;
+    width: 300px;
   }
 
   /* ------------ footer mobile ------------ */
