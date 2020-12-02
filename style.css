@@ -82,8 +82,6 @@ nav {
 
 /* ----------- bloc page ----------*/
 
-
-
 /* ------ header ---------*/
 
 header {
@@ -423,12 +421,12 @@ ul {
   }
 
   nav,
-header,
-.logements,
-.article3 {
-  margin-right: 3%;
-  margin-left: 3%;
-}
+  header,
+  .logements,
+  .article3 {
+    margin-right: 3%;
+    margin-left: 3%;
+  }
 }
 
 /* marche toujours pas donc j'ai mis des iiiiiiiiiii */
@@ -549,8 +547,6 @@ header,
   body {
     margin: 0px;
   }
-
-
 
   nav {
     margin-left: 5px;
@@ -720,11 +716,10 @@ header,
 
   /* ---------- article3 mobile --------- */
 
- 
   /* margin-left: 25px; */
 
   .article3 {
-    margin-left: 15px
+    margin-left: 15px;
   }
 
   h5 {
@@ -751,7 +746,7 @@ header,
     width: 300px;
   }
 
-  /* ------------ footer mobile ------------ */
+  /* ------------ footer mobile ----------- */
 
   .footing {
     padding-top: 20px;
