@@ -207,7 +207,7 @@ input[type="submit"] {
 
 .article1 {
   background-color: #f2f2f2;
-  max-width: 65%;
+  max-width: 60%;
   border-radius: 20px;
   align-items: center;
 }
@@ -675,7 +675,7 @@ header,
   .afficher,
   .gauche {
     background-color: white;
-    margin-left: 15%;
+    margin-left: 8%;
   }
 
   .droite {
