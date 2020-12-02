@@ -1,0 +1,699 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  font-family: 'Raleway',serif, sans-serif;
+  
+  
+}
+
+
+
+h1, h2, h3, h4
+{
+  font-weight: bolder;
+}
+
+h2
+{
+  font-size: 25px;
+}
+
+h3, h4
+{
+  font-size: 20px;
+}
+
+h5
+ {
+   font-size: 20px;
+ }
+
+.fas{
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* ---------- nav ---------- */
+
+
+nav img  {
+  width: 150px;
+  margin-top: 30px;
+}
+
+nav
+{ 
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.entete
+{
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+
+.entete a
+{
+  text-decoration: none;
+  margin: 40px; 
+}
+
+.entete  a:first-child, .entete  a:last-child
+{color: blue}
+
+
+
+
+
+/* ----------- bloc page ----------*/
+
+nav, header, .logements, article
+{
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+/*  */
+
+
+
+/* ------ header ---------*/ 
+
+header {
+  margin-left: 20px;
+}
+
+h2 {
+  opacity: 0.4;
+  padding-top: 10px
+}
+
+
+.ici {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px 0 0 10px ; 
+}
+
+.ici .fas
+{
+  color: black;
+  margin-top: 8px;
+}
+
+.mobilefilters
+{
+  display: flex;
+  
+}
+.filter .fas
+{
+  color: #0065FC;
+  text-align: center;
+}
+
+#recherche {
+  
+  height: 50px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+input[type="texte"]
+{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+input[type="submit"] {
+  border-radius: 0px 12px 12px 0px;
+  background-color: #0065fc;
+  color: white;
+  height: 50px;
+  font-size: 20px
+}
+
+/* ----------- Fitres ------------------*/
+
+
+.menu
+{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+
+
+.menu :hover:not(.filtre):not(i):not(h6):not(.mobilefilters) {
+  cursor: pointer;
+  background-color : rgb(133, 195, 214);
+}
+
+.menu h6
+{
+margin-left: 15px;
+margin-right: 25px;
+font-weight: bold;
+font-size: 15px;
+margin-top: 15px;
+}
+
+
+.filter {
+  display: flex;
+  border: 1px solid rgb(151, 215, 231);
+  border-radius: 50px;
+  width: auto;
+  height: 50px;
+  margin-left: 25px; 
+}
+
+.filtre  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 40px;
+  font-size: 25px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.menu i {
+  background-color: #F2F2F2;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.info {
+  margin:40px;
+  display: flex;
+  
+}
+
+
+.info i
+{
+ color: blue;
+ font-style: 50px;
+ padding-bottom: 20px; 
+}
+
+/* ---------- section --------- */
+
+
+.logements {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;  
+    align-items: stretch;
+  
+}
+
+section {
+
+  width: 62%;
+  height: 10%;
+  background: #f2f2f2;
+  border-radius: 20px;
+  margin-left: 50px;
+  
+}
+
+
+
+
+.Hebergements {
+
+
+  margin-left: 50px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+
+
+
+
+.gauche {
+
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-left: 30px;
+  
+}
+
+
+
+
+.hotel {
+  
+  width: calc(33% - 60px);
+  background: #fff;
+  padding: 5px;
+  border-radius: 25px;
+  margin: 30px;
+  box-shadow: 0px 0px 20px 0px;
+  cursor: pointer;
+}
+
+
+
+
+
+.hotel img {
+  width: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 25px 25px 0 0;
+  height: 130px;
+   
+}
+
+
+
+
+
+.soushotel {
+
+  padding-left: 20px;
+ 
+}
+
+
+
+.soushotel h3 {
+
+  font-size: 18px;
+  
+}
+
+
+
+.soushotel p {
+
+  padding-top: 5px;
+  margin: 0 0 0 1px;
+}
+
+
+
+
+
+.soushotel .fas {
+
+  color: #0065FC;
+  padding-top: 20px;
+  
+}
+
+
+.afficher {
+  margin-bottom: 10px;
+  padding-left: 6%;
+  font-size: 15px;
+  }
+
+.afficher a {
+  font-weight: bold;
+} 
+
+
+
+
+aside {
+  
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  width: 30%;
+  margin-left: 40px;
+  
+}
+
+.droite {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  align-items: center;
+    
+
+}
+
+.populaire {
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.populaire .fas {
+  color: black
+}
+
+/* pour le mettre plus à gauche ... voir les margin qu'il a ailleurs dans ses parents */
+
+
+.droite img {
+  border-radius: 20px 0  0 20px;
+  width: 200px;
+  height: 140px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+/*   object-fit: cover ? */
+
+.motel {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px; 
+  padding: 4px;
+  margin-left: 10px;
+  margin: 20px;
+  display:flex;
+  width: 400px;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.35);
+  
+ 
+  
+}
+
+.motel p {
+  margin: 1px;
+}
+
+.motel .fas {
+  margin-top: 15px;
+}
+
+
+.sousmotel {
+  
+  padding: 10px;
+  width: 50%;
+}
+
+
+/* faire en sorte que les images soit responsives (en % ?) */
+
+/* rebosser sur la notion de bloc  pour les medias query */ 
+
+/* voir le responsive sur la definition d'image */ 
+
+
+
+
+
+
+/* ------------- article ------------ */
+
+
+article
+{ margin-top: 50px;
+
+}
+
+/* padding et margin marche pas */
+
+
+.tourisme img {
+  border-radius: 20px 20px 0 0; 
+  cursor: pointer;
+
+}
+
+.tourisme p 
+{
+ margin-left: 15px;
+ margin-top: 0}
+
+
+.tourisme {
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  font-weight: bold;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grand img
+{
+  width: 345px;
+  height: 530px;
+  object-fit: cover;
+}
+
+.tourisme .acti img {
+ 
+  width: 345px;
+  height: 250px;  
+  object-fit: cover;
+  }
+
+
+.acti, .grand
+{
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+  margin-right: 40px;
+  margin-bottom: 20px;
+  border-radius: 0 0 20px 20px
+}
+
+
+  
+
+
+/* ----------foooter ------------ */
+
+.footing{
+  background-color: #f2f2f2;
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  ;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.footing li{
+  margin-top: 10px
+}
+
+
+.footing ul 
+{
+  font-weight: bold;
+}
+
+
+
+/* ----------------- RESPONSIVE --------------- */
+
+  
+ /* remplacer le min width par 0 et le max par 600px et la tablette c'est 480px et max 1080*/
+
+ /* Essaie avec ça @media all and (max-device-width: 480px) */
+
+ /* ça bug à 1500px; */
+ 
+/* changer en em */
+ 
+/* ------------ tablette ----------- */
+
+@media only screen and (min-device-width : 769px) and (max-device-width : 1430px) {
+
+  nav, header, .logements, article
+  {
+  margin-right: 1%;
+  margin-left: 1%
+  }
+
+
+  section {  
+    width: 80%;
+    margin: 0.1px;
+  }
+
+  .logement
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
+/* ----------- nav mobile ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    nav, header, article {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+ 
+  nav img
+  {
+    width: 30%;
+  }
+
+
+  nav
+   {
+      flex-direction: column;
+      width: 90%;
+      margin-left: 5px;
+      justify-content: start;
+      margin-right: 5px;
+   }
+
+
+  /* ------------- header mobile ---------- */
+  
+  input[type="texte"]{
+    width: 130px;
+   }
+ 
+   .recherche {
+     width: 70%;
+   }
+  
+  
+  
+  .menu
+   {
+       flex-direction: column;
+   }
+
+   .filter
+   {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+   }
+
+   .filtrer:nth-child(1) .filter:nth-child(2) {
+       display: flex;
+       flex-direction: row;
+   }
+
+   /* ------------- section mobile ----------------- */
+
+  .logements {
+     display: flex;
+     flex-direction: column-reverse;
+     justify-content: center;
+     background-color: white;
+   }
+
+  .gauche, .droite {
+    margin-left: 1px;
+    }
+
+    .gauche { 
+      width: 100%;
+      background-color: white;
+    }
+
+    
+    section, .Hebergements, .afficher, .gauche {
+    background-color: white;  
+    }
+  
+
+    .droite {
+    flex-direction: column;
+    
+  }
+
+    .hotel, .gauche .section  {
+    justify-content: center;
+    margin-left: 10%;
+    }
+
+    
+    section {
+      background-color: none;
+    }
+    
+    .logements{
+      width: 100%;
+      background-color: none
+    }
+
+    .motel {
+    flex-direction: row;
+  }
+
+  aside, .logement, .droite,  .motel .sousmotel {
+    margin-left: 1px;
+  }
+
+  /* ---------- article mobile --------- */
+
+    .tourisme {
+      justify-content: center;
+    }
+
+  
+
+    h5{
+      margin-left: 50px;
+      padding-top: 50px;
+
+    }
+    
+
+
+    .acti p, .grand p{
+        padding: 15px;
+    }
+
+
+   /* ------------ footer mobile ------------ */
+
+    .footing
+    {
+        padding-top: 20px;
+      flex-direction: column;
+    }
+
+ }
