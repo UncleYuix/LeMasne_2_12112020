@@ -59,7 +59,7 @@ nav {
 
 .entete ul {
   display: flex;
-  flex: row;
+  flex-direction: row;
 }
 
 .navinscrire {
@@ -118,7 +118,7 @@ h2 {
   margin-bottom: 40px;
 }
 
-input[type="texte"] {
+input[type="text"] {
   font-size: 20px;
   padding-left: 20px;
 }
@@ -192,7 +192,6 @@ input[type="submit"] {
 
 .info i {
   color: blue;
-  font-style: 50px;
   padding-bottom: 20px;
 }
 
@@ -678,13 +677,9 @@ ul {
     flex-direction: column;
   }
 
-  .article1 {
-    background-color: none;
-  }
 
   .logements {
     width: 100%;
-    background-color: none;
   }
 
   .motel {
