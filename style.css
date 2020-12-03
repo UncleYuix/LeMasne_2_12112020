@@ -80,7 +80,6 @@ nav {
   color: blue;
 }
 
-/* ----------- bloc page ----------*/
 
 /* ------ header ---------*/
 
@@ -230,8 +229,6 @@ input[type="submit"] {
   object-fit: cover;
 }
 
-/* border sizing ? 250px ou alors je mets width: 100% et calc(33 dans .gauche en width)*/
-
 .logements .fas {
   color: blue;
 }
@@ -249,7 +246,7 @@ input[type="submit"] {
   margin-left: 10px;
   margin-bottom: 5px;
 }
-/* probleme de padding sur les elements  - à voir avec du grid*/
+
 
 .soushotel p {
   margin: 1px;
@@ -386,13 +383,7 @@ ul {
 
 /* ----------------- RESPONSIVE --------------- */
 
-/* remplacer le min width par 0 et le max par 600px et la tablette c'est 480px et max 1080*/
 
-/* Essaie avec ça @media all and (max-device-width: 480px) */
-
-/* ça bug à 1500px; */
-
-/* changer en em */
 
 /* ------------ tablette ----------- */
 
@@ -428,7 +419,14 @@ ul {
   }
 }
 
-/* marche toujours pas donc j'ai mis des iiiiiiiiiii */
+
+@media only screen and (min-device-width: 1024px) and (max-width: 1350px) {
+
+  .article2 {
+    width: 38%;
+  }
+}
+
 
 @media only screen and (min-device-width: 520px) and (max-width: 1024px) {
   nav,
@@ -480,6 +478,8 @@ ul {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    align-items: center;
+    margin-left: -80px;
   }
 
   .droite {
@@ -495,6 +495,7 @@ ul {
 
   .article2 {
     background-color: white;
+    margin-left: 0;
   }
 
   .article1 {
@@ -525,11 +526,9 @@ ul {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-  }
-
-  .tourisme {
     justify-content: center;
   }
+
 
   .responsive {
     margin-top: 30px;
@@ -659,8 +658,6 @@ ul {
   #hebergements {
     margin-left: -40px;
   }
-
-  /* margin negatif = pas bien */
 
   .gauche {
     background: white;
