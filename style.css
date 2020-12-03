@@ -428,7 +428,7 @@ ul {
 }
 
 
-@media only screen and (min-device-width: 520px) and (max-width: 1024px) {
+@media only screen and (min-device-width: 485px) and (max-width: 1024px) {
   nav,
   header,
   .logements,
@@ -472,6 +472,7 @@ ul {
   .gauche {
     width: 150%;
     align-items: center;
+    margin-left: -90px;
   }
 
   .logements {
@@ -479,7 +480,7 @@ ul {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    margin-left: -80px;
+    
   }
 
   .droite {
