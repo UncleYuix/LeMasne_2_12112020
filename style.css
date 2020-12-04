@@ -398,13 +398,13 @@ ul {
   .navrespon,
   .navinscrire {
     padding-top: 40px;
-  }
+  } 
 
   .entete a {
     font-weight: bold;
   }
 
-  a:hover {
+  .entete a:hover {
     border-top: 3px solid blue;
     padding-top: 40px;
     color: blue;
@@ -427,6 +427,23 @@ ul {
   }
 }
 
+@media only screen and (min-device-width: 500px) and (max-width:620px) {
+
+.droite, .motel, .article2  {
+  width: 90%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tourisme {
+  margin-left: 10%;
+  width: 100%;
+}
+
+}
 
 @media only screen and (min-device-width: 485px) and (max-width: 1024px) {
   nav,
@@ -644,7 +661,7 @@ ul {
 
   .populaire {
     font-size: 30px;
-    width: 80%;
+    width: 90%;
   }
 
   h4 {
