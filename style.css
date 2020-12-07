@@ -454,14 +454,14 @@ ul {
 }
 
 
-@media only screen and (min-device-width: 1024px) and (max-width: 1350px) {
+@media screen and (min-width: 1024px) and (max-width: 1350px) {
 
   .article2 {
     width: 38%;
   }
 }
 
-@media only screen and (min-device-width: 500px) and (max-width:620px) {
+@media screen and (min-width: 500px) and (max-width:620px) {
 
 .droite, .motel, .article2  {
   width: 90%;
@@ -479,7 +479,7 @@ nav {
 
 }
 
-@media only screen and (min-device-width: 485px) and (max-width: 1024px) {
+@media  screen and (min-width: 485px) and (max-width: 1024px) {
   nav,
   header,
   .logements,
@@ -593,7 +593,7 @@ nav {
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   body {
     margin: 0px;
   }
