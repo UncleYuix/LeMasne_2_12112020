@@ -714,17 +714,25 @@ nav {
 
   #hebergements {
     margin-left: -40px;
+    width: 300px;
   }
 
   .gauche {
     background: white;
   }
 
+  .hotel img {
+    width: 300px;
+  }
+  
   .article1,
-  .afficher,
   .gauche {
     background-color: white;
-    margin-left: 8%;
+    margin-left: 10px;
+  }
+
+  .afficher {
+    margin-left: 0;
   }
 
   .droite {
@@ -772,6 +780,10 @@ nav {
   
   }
 
+  #Activites {
+    padding-left: 20px;
+  }
+
   h5 {
     font-size: 30px;
     margin-left: 0px;
@@ -787,15 +799,22 @@ nav {
     margin-right: 1px;
   }
 
-  .acti p,
-  .grand p {
-    padding: 15px;
-  }
 
   .responsive {
     height: 130px;
     width: 100%;
   }
+
+  .acti p {
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+
+.petit {
+  margin-bottom: 20px;
+}
+
+
 
   /* ------------ footer mobile ----------- */
 
