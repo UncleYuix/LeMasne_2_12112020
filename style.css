@@ -217,7 +217,6 @@ input[type="submit"] {
   background-color: #f2f2f2;
   max-width: 60%;
   border-radius: 20px;
-  align-items: center;
 }
 
 #Hebergements {
@@ -227,8 +226,7 @@ input[type="submit"] {
 .gauche {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 90px;
 }
 
 .hotel img {
@@ -237,7 +235,7 @@ input[type="submit"] {
   height: 120px;
   cursor: pointer;
   border: 8px solid white;
-  align-items: center;
+ 
   object-fit: cover;
 }
 
@@ -366,9 +364,9 @@ input[type="submit"] {
 
 .acti,
 .grand {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.35);
   margin-right: 50px;
-  border-radius: 0 0 20px 20px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .acti p {
