@@ -416,7 +416,7 @@ ul {
 
 /* problème de 1025 à 1140 à gauche et chelou à droite à jusqu'à 1300px; */
 
-@media only screen and (min-device-width: 1250px) {
+@media  screen and (min-width: 1250px) {
   .responsiiive {
     width: 100%;
     height: auto;
