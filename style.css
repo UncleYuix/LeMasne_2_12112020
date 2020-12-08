@@ -735,14 +735,17 @@ nav {
     background: white;
   }
 
+ 
+
   .hotel img {
-    width: 300px;
+    width: 320px;
   }
   
   .article1,
   .gauche {
     background-color: white;
     margin-left: 10px;
+    align-items: center;
   }
 
   .afficher {
