@@ -520,6 +520,12 @@ nav {
     margin-left: 150px;
   }
 
+
+  .info i {
+    padding-top: 17px;
+    padding-right: 10px;
+  }
+
   .gauche {
     width: 150%;
     align-items: center;
@@ -584,6 +590,14 @@ nav {
 
   .responsive {
     margin-top: 30px;
+  }
+
+  .grand, .acti {
+    margin-bottom: 20px;
+  }
+
+  .grand  {
+    height: 110%;
   }
 
   .footing {
@@ -823,4 +837,39 @@ nav {
     flex-direction: column;
     width: 100%;
   }
+}
+
+
+@media screen and (min-width: 318px) and (max-width: 360px) {
+
+
+
+input[type="text"] {
+  width: 160px;
+}
+
+.navrespon, .navinscrire {
+  font-size: 15px;
+}
+
+.navrespon {
+  margin-left: 0;
+}
+
+.article2 {
+  width: 120%;
+}
+
+filter:nth-child(4) {
+  width: 90%;
+}
+
+.mobilefilters {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  width: 120%;
+}
 }
