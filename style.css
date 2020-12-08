@@ -451,13 +451,15 @@ ul {
   .droite,
   .motel,
   .article2 {
-    width: 90%;
+    width: 80%;
+    margin-left: 100px ;
   }
 
   nav {
     display: flex;
     flex-wrap: wrap;
   }
+
 
   .tourisme {
     margin-left: 10%;
@@ -524,12 +526,10 @@ ul {
   }
 
   .droite {
-    width: 100%;
+ width: 100%;
+margin-left: -100px ;
   }
 
-  .motel {
-  
-  }
   .sousmotel {
     width: 180px;
   }
@@ -825,6 +825,7 @@ ul {
   .navrespon,
   .navinscrire {
     font-size: 15px;
+    padding-right: 40px;
   }
 
   .navrespon {
@@ -842,6 +843,10 @@ ul {
   .mobilefilters {
     display: flex;
     flex-direction: column;
+  }
+
+  .tourisme {
+    margin-left: 40px;
   }
 
   footer {
