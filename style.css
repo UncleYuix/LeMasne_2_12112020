@@ -5,7 +5,7 @@ body {
 }
 
 p {
-  font-family: "Raleway"
+  font-family: "Raleway";
 }
 
 h1,
@@ -20,7 +20,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Raleway"
+  font-family: "Raleway";
 }
 
 h2 {
@@ -91,7 +91,6 @@ nav {
 .navinscrire a {
   color: blue;
 }
-
 
 /* ------ header ---------*/
 
@@ -194,7 +193,6 @@ input[type="submit"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .info {
@@ -235,7 +233,7 @@ input[type="submit"] {
   height: 120px;
   cursor: pointer;
   border: 8px solid white;
- 
+
   object-fit: cover;
 }
 
@@ -250,13 +248,12 @@ input[type="submit"] {
   margin-right: 20px;
   margin-top: 20px;
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.35);
- }
+}
 
 .soushotel {
   margin-left: 10px;
   margin-bottom: 5px;
 }
-
 
 .soushotel p {
   margin: 1px;
@@ -314,7 +311,6 @@ input[type="submit"] {
   display: flex;
   align-items: center;
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.35);
- ;
 }
 
 .motel p {
@@ -373,13 +369,9 @@ input[type="submit"] {
   padding-bottom: 20px;
 }
 
-
 .grand {
   height: 555px;
 }
-
-
-
 
 /* ----------foooter ------------ */
 
@@ -395,7 +387,6 @@ input[type="submit"] {
   font-weight: bold;
 }
 
-
 ul {
   list-style-type: none;
 }
@@ -410,13 +401,11 @@ ul {
 
 /* ----------------- RESPONSIVE --------------- */
 
-
-
 /* ------------ tablette ----------- */
 
 /* problème de 1025 à 1140 à gauche et chelou à droite à jusqu'à 1300px; */
 
-@media  screen and (min-width: 1250px) {
+@media screen and (min-width: 1250px) {
   .responsiiive {
     width: 100%;
     height: auto;
@@ -425,7 +414,7 @@ ul {
   .navrespon,
   .navinscrire {
     padding-top: 40px;
-  } 
+  }
 
   .entete a {
     font-weight: bold;
@@ -450,39 +439,35 @@ ul {
     margin-top: 18px;
     margin-right: 10px;
   }
-
 }
 
-
 @media screen and (min-width: 1024px) and (max-width: 1350px) {
-
   .article2 {
     width: 38%;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width:620px) {
+@media screen and (min-width: 500px) and (max-width: 620px) {
+  .droite,
+  .motel,
+  .article2 {
+    width: 90%;
+  }
 
-.droite, .motel, .article2  {
-  width: 90%;
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tourisme {
+    margin-left: 10%;
+    width: 100%;
+  }
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.tourisme {
-  margin-left: 10%;
-  width: 100%;
-}
-
-}
-
-@media  screen and (min-width: 485px) and (max-width: 1024px) {
+@media screen and (min-width: 485px) and (max-width: 1024px) {
   nav,
   header,
-  .logements,
   .article3 {
     margin-right: 1%;
     margin-left: 1%;
@@ -520,7 +505,6 @@ nav {
     margin-left: 150px;
   }
 
-
   .info i {
     padding-top: 17px;
     padding-right: 10px;
@@ -537,7 +521,6 @@ nav {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    
   }
 
   .droite {
@@ -545,7 +528,7 @@ nav {
   }
 
   .motel {
-    margin-left: -30px;
+  
   }
   .sousmotel {
     width: 180px;
@@ -587,16 +570,16 @@ nav {
     justify-content: center;
   }
 
-
   .responsive {
     margin-top: 30px;
   }
 
-  .grand, .acti {
+  .grand,
+  .acti {
     margin-bottom: 20px;
   }
 
-  .grand  {
+  .grand {
     height: 110%;
   }
 
@@ -612,10 +595,9 @@ nav {
     margin: 0px;
   }
 
-#Reservia
-{
-  padding-left: 20px;
-}
+  #Reservia {
+    padding-left: 20px;
+  }
 
   nav {
     margin-left: 5px;
@@ -735,12 +717,10 @@ nav {
     background: white;
   }
 
- 
-
   .hotel img {
     width: 320px;
   }
-  
+
   .article1,
   .gauche {
     background-color: white;
@@ -755,7 +735,6 @@ nav {
   .droite {
     flex-direction: column;
   }
-
 
   .logements {
     width: 100%;
@@ -794,7 +773,6 @@ nav {
 
   .article3 {
     margin: 1%;
-  
   }
 
   #Activites {
@@ -816,7 +794,6 @@ nav {
     margin-right: 1px;
   }
 
-
   .responsive {
     height: 130px;
     width: 100%;
@@ -827,11 +804,9 @@ nav {
     padding-top: 0px;
   }
 
-.petit {
-  margin-bottom: 20px;
-}
-
-
+  .petit {
+    margin-bottom: 20px;
+  }
 
   /* ------------ footer mobile ----------- */
 
@@ -842,37 +817,34 @@ nav {
   }
 }
 
-
 @media screen and (min-width: 318px) and (max-width: 360px) {
+  input[type="text"] {
+    width: 160px;
+  }
 
+  .navrespon,
+  .navinscrire {
+    font-size: 15px;
+  }
 
+  .navrespon {
+    margin-left: 0;
+  }
 
-input[type="text"] {
-  width: 160px;
-}
+  .article2 {
+    width: 120%;
+  }
 
-.navrespon, .navinscrire {
-  font-size: 15px;
-}
+  filter:nth-child(4) {
+    width: 90%;
+  }
 
-.navrespon {
-  margin-left: 0;
-}
+  .mobilefilters {
+    display: flex;
+    flex-direction: column;
+  }
 
-.article2 {
-  width: 120%;
-}
-
-filter:nth-child(4) {
-  width: 90%;
-}
-
-.mobilefilters {
-  display: flex;
-  flex-direction: column;
-}
-
-footer {
-  width: 120%;
-}
+  footer {
+    width: 120%;
+  }
 }
