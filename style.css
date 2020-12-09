@@ -23,6 +23,10 @@ h5 {
   font-family: "Raleway";
 }
 
+footer {
+  font-family: "Raleway";
+}
+
 h2 {
   font-size: 17px;
 }
@@ -215,7 +219,7 @@ input[type="submit"] {
   background-color: #f2f2f2;
   max-width: 60%;
   border-radius: 20px;
-}
+  }
 
 #Hebergements {
   margin-left: 40px;
@@ -224,7 +228,7 @@ input[type="submit"] {
 .gauche {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 90px;
+  justify-content: center;
 }
 
 .hotel img {
@@ -512,10 +516,10 @@ ul {
     padding-right: 10px;
   }
 
+ 
+
   .gauche {
-    width: 150%;
     align-items: center;
-    margin-left: -90px;
   }
 
   .logements {
@@ -566,7 +570,7 @@ margin-left: -100px ;
   .tourisme {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 100%;
     justify-content: center;
   }
 
@@ -590,7 +594,7 @@ margin-left: -100px ;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and  (max-width: 480px) {
   body {
     margin: 0px;
   }
@@ -687,12 +691,18 @@ margin-left: -100px ;
   header p {
     font-size: 20px;
   }
+
+ /* article 1 */
+
   .logements {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     background: white;
+    width: 100%;
   }
+
+  
 
   .populaire {
     font-size: 30px;
@@ -704,14 +714,15 @@ margin-left: -100px ;
   }
 
   h3 {
-    font-size: 30px;
-    margin-left: -30px;
+    font-size: 25px;
+    margin-left: 20px;
   }
 
   #hebergements {
-    margin-left: -40px;
-    width: 300px;
+    width: 200px;
+
   }
+
 
   .gauche {
     background: white;
@@ -724,22 +735,23 @@ margin-left: -100px ;
   .article1,
   .gauche {
     background-color: white;
-    margin-left: 10px;
-    align-items: center;
   }
 
   .afficher {
     margin-left: 0;
   }
 
+  .article1 {
+  max-width: 100%;
+  }
+
+  /* article2 */
+
   .droite {
     flex-direction: column;
   }
 
-  .logements {
-    width: 100%;
-  }
-
+ 
   .motel {
     flex-direction: row;
     margin: 0px;
@@ -767,9 +779,9 @@ margin-left: -100px ;
     width: 40%;
   }
 
+
   /* ---------- article3 mobile --------- */
 
-  /* margin-left: 25px; */
 
   .article3 {
     margin: 1%;
@@ -817,10 +829,15 @@ margin-left: -100px ;
   }
 }
 
+  
+
 @media screen and (min-width: 318px) and (max-width: 360px) {
   input[type="text"] {
     width: 160px;
   }
+
+
+
 
   .navrespon,
   .navinscrire {
@@ -829,11 +846,15 @@ margin-left: -100px ;
   }
 
   .navrespon {
-    margin-left: 0;
+    margin-left: -60px;
   }
 
   .article2 {
     width: 120%;
+  }
+
+  .article1 {
+    margin-left: 45px;
   }
 
   filter:nth-child(4) {
