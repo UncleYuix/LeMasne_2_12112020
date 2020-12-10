@@ -475,7 +475,7 @@ ul {
   
   
     .tourisme {
-      margin-left: 10%;
+      
       width: 100%;
     }
   }
@@ -840,7 +840,7 @@ margin-left: -100px ;
 
   
 
-@media screen and  (max-width: 360px) {
+@media screen and  (max-width: 370px) {
   
   
   input[type="text"] {
