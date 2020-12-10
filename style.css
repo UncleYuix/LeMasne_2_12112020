@@ -842,10 +842,6 @@ margin-left: -100px ;
 
 @media screen and  (max-width: 360px) {
   
-  body {
-    max-width: 100%;
-  }
-  
   
   input[type="text"] {
     width: 160px;
@@ -854,6 +850,7 @@ margin-left: -100px ;
 
   h1 {
     font-size: 20px;
+    max-width: 300px;
   }
 
   h2 {
@@ -861,6 +858,10 @@ margin-left: -100px ;
   }
 
   h4 {
+    font-size: 20px;
+  }
+
+  h3 {
     font-size: 20px;
   }
 
@@ -872,11 +873,21 @@ margin-left: -100px ;
   .navrespon,
   .navinscrire {
     font-size: 15px;
-    padding-right: 40px;
   }
+
+  .navinscrire {
+    margin-left: -140px;
+  }
+
 
   .navrespon {
     margin-left: -60px;
+  }
+
+
+
+  .hotel img {
+    width: 280px;
   }
 
   .article2 {
@@ -894,13 +905,6 @@ margin-left: -100px ;
     flex-direction: column;
   }
 
-  .tourisme {
-    margin-left: 40px;
-  }
-
-  .article3 {
-    margin: 5%;
-  }
 
   footer {
     width: 100%;
