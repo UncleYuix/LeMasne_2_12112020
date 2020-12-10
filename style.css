@@ -2,6 +2,7 @@
 
 body {
   font-family: "Raleway", serif, sans-serif;
+  margin: 0px;
 }
 
 p {
@@ -65,6 +66,11 @@ nav img {
 nav {
   display: flex;
   justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .entete {
@@ -451,25 +457,28 @@ ul {
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 620px) {
-  .droite,
-  .motel,
-  .article2 {
-    width: 80%;
-    margin-left: 100px ;
-  }
-
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
 
-  .tourisme {
-    margin-left: 10%;
-    width: 100%;
+
+  @media screen and (min-width: 500px) and (max-width: 620px) {
+    .droite,
+    .motel,
+    .article2 {
+      width: 80%;
+      margin-left: 100px ;
+    }
+  
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+  
+    .tourisme {
+      margin-left: 10%;
+      width: 100%;
+    }
   }
-}
 
 @media screen and (min-width: 485px) and (max-width: 1024px) {
   nav,
@@ -831,13 +840,34 @@ margin-left: -100px ;
 
   
 
-@media screen and (min-width: 318px) and (max-width: 360px) {
+@media screen and  (max-width: 360px) {
+  
+  body {
+    max-width: 100%;
+  }
+  
+  
   input[type="text"] {
     width: 160px;
   }
 
 
+  h1 {
+    font-size: 20px;
+  }
 
+  h2 {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .filtre {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
 
   .navrespon,
   .navinscrire {
@@ -850,12 +880,10 @@ margin-left: -100px ;
   }
 
   .article2 {
-    width: 120%;
+    width: 100%;
   }
 
-  .article1 {
-    margin-left: 45px;
-  }
+  
 
   filter:nth-child(4) {
     width: 90%;
@@ -870,7 +898,11 @@ margin-left: -100px ;
     margin-left: 40px;
   }
 
+  .article3 {
+    margin: 5%;
+  }
+
   footer {
-    width: 120%;
+    width: 100%;
   }
 }
