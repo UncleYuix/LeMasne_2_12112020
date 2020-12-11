@@ -451,12 +451,22 @@ ul {
   }
 }
 
+
+
 @media screen and (min-width: 1024px) and (max-width: 1350px) {
   .article2 {
     width: 38%;
   }
 }
 
+@media screen and (min-width: 485px) and (max-width: 500px) {
+
+.article2 {
+  margin-right: 40px;
+
+
+}
+}
 
 
 
@@ -473,7 +483,10 @@ ul {
       flex-wrap: wrap;
     }
   
-  
+    .mobilefilters {
+      margin-bottom: 10px;
+    }
+
     .tourisme {
       
       width: 100%;
@@ -603,7 +616,7 @@ margin-left: -100px ;
   }
 }
 
-@media screen and  (max-width: 480px) {
+@media screen and  (max-width: 485px) {
   body {
     margin: 0px;
   }
@@ -675,12 +688,13 @@ margin-left: -100px ;
 
   .menu h6 {
     font-size: 18px;
+    margin-right: 5px;
   }
 
   .filter {
     margin-left: 20px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 60%;
   }
 
   .filtrer:nth-child(1) .filter:nth-child(2) {
@@ -689,7 +703,7 @@ margin-left: -100px ;
   }
 
   .filter:nth-child(4) {
-    width: 90%;
+    width: 82%;
   }
 
   .info i {
@@ -718,8 +732,8 @@ margin-left: -100px ;
     width: 90%;
   }
 
-  h4 {
-    font-size: 30px;
+  .logements h4 {
+    font-size: 20px;
   }
 
   h3 {
@@ -800,7 +814,7 @@ margin-left: -100px ;
     padding-left: 20px;
   }
 
-  h5 {
+  .tourisme h5 {
     font-size: 30px;
     margin-left: 0px;
     padding-top: 50px;
@@ -892,6 +906,7 @@ margin-left: -100px ;
 
   .article2 {
     width: 100%;
+    margin-left:
   }
 
   
@@ -903,10 +918,17 @@ margin-left: -100px ;
   .mobilefilters {
     display: flex;
     flex-direction: column;
+    
   }
 
 
   footer {
     width: 100%;
   }
+}
+
+@media screen and  (max-width: 340px) {
+
+.article1 {
+  margin-left: 5px;
 }
