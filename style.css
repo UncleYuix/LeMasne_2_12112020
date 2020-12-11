@@ -413,7 +413,33 @@ ul {
 
 /* ------------ tablette ----------- */
 
-/* problème de 1025 à 1140 à gauche et chelou à droite à jusqu'à 1300px; */
+
+
+@media screen and (min-width: 1300px) and (max-width: 1578px) {
+
+ .hotel img {
+  width: 200px;
+ }
+
+
+}
+
+
+
+@media screen and (min-width: 1551px) and (max-width: 1789px) {
+
+  .tourisme img {
+  width: 310px;
+
+  }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1551px) {
+  .tourisme img {
+    width: 240px;
+  }
+}
+
 
 @media screen and (min-width: 1250px) {
   .responsiiive {
@@ -456,6 +482,10 @@ ul {
 @media screen and (min-width: 1024px) and (max-width: 1350px) {
   .article2 {
     width: 38%;
+  }
+
+  .tourisme {
+    justify-content: center;
   }
 }
 
