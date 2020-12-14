@@ -420,8 +420,6 @@ ul {
  .hotel img {
   width: 200px;
  }
-
-
 }
 
 
@@ -474,6 +472,16 @@ ul {
     color: blue;
     margin-top: 18px;
     margin-right: 10px;
+  }
+}
+
+
+
+@media screen and (min-width: 2060px) {
+
+  body {
+    max-width: 2060px;
+    margin-left: 10%;
   }
 }
 
@@ -936,7 +944,7 @@ margin-left: -100px ;
 
   .article2 {
     width: 100%;
-    margin-left:
+
   }
 
   
@@ -961,4 +969,5 @@ margin-left: -100px ;
 
 .article1 {
   margin-left: 5px;
+}
 }
