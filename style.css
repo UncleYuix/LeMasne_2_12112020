@@ -196,7 +196,7 @@ input[type="submit"] {
 }
 
 .menu i {
-  background-color: #f2f2f2;
+  background-color: #dae4f3;
   border-radius: 100%;
   height: 50px;
   width: 50px;
@@ -375,6 +375,8 @@ input[type="submit"] {
   border-radius: 20px 20px 20px 20px;
 }
 
+
+
 .acti p {
   padding-bottom: 20px;
 }
@@ -409,34 +411,50 @@ ul {
   font-weight: bold;
 }
 
-/* ----------------- RESPONSIVE --------------- */
-
-/* ------------ tablette ----------- */
-
 
 
 @media screen and (min-width: 1300px) and (max-width: 1578px) {
 
- .hotel img {
-  width: 200px;
+  .hotel img {
+   width: 200px;
+  }
  }
-}
+ 
+ 
+ 
+ @media screen and (min-width: 1635px) and (max-width: 1789px) {
+ 
+   .tourisme img {
+   width: 350px;
+ 
+   }
+ }
+ 
+ @media screen and (min-width: 1535px) and (max-width: 1635px) {
+ 
+   .tourisme img {
+   width: 320px;
+ 
+   }
+ }
+ 
+ @media screen and (min-width: 1250px) and (max-width: 1551px) {
+   .tourisme img {
+     width: 240px;
+   }
+ }
+ 
 
 
 
-@media screen and (min-width: 1551px) and (max-width: 1789px) {
+@media screen and (min-width: 2060px) {
 
-  .tourisme img {
-  width: 310px;
-
+  body {
+    max-width: 2060px;
+    margin-left: 10%;
   }
 }
 
-@media screen and (min-width: 1250px) and (max-width: 1551px) {
-  .tourisme img {
-    width: 240px;
-  }
-}
 
 
 @media screen and (min-width: 1250px) {
@@ -462,9 +480,12 @@ ul {
 
   nav,
   header,
-  .logements,
-  .article3 {
+  .logements{
     margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .article3 {
     margin-left: 3%;
   }
 
@@ -476,14 +497,6 @@ ul {
 }
 
 
-
-@media screen and (min-width: 2060px) {
-
-  body {
-    max-width: 2060px;
-    margin-left: 10%;
-  }
-}
 
 
 
@@ -498,9 +511,25 @@ ul {
 }
 
 
+@media screen and (min-width: 510px) and (max-width: 714px) {
 
+  .navinscrire {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+  
+  }
+}
 
-  @media screen and (min-width: 500px) and (max-width: 620px) {
+  @media screen and (min-width: 643px) and (max-width: 714px) {
+    .navrespon {
+      margin-top: 40px;
+    }
+
+  }
+
+  @media screen and (min-width: 510px) and (max-width: 620px) {
   
   
     nav {
@@ -518,7 +547,7 @@ ul {
     }
   }
 
-@media screen and (min-width: 485px) and (max-width: 1024px) {
+@media screen and (min-width: 510px) and (max-width: 1024px) {
   nav,
   header,
   .article3 {
@@ -550,12 +579,21 @@ ul {
   }
 
   .menu {
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
   .filter:nth-child(4) {
     margin-top: 20px;
-    margin-left: 150px;
+  }
+
+  .mobilefilters {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+
+  .filter {
+    width: 220px;
   }
 
   .info i {
@@ -644,7 +682,27 @@ ul {
   }
 }
 
-@media screen and  (max-width: 485px) {
+@media screen and (min-width: 470px) and (max-width: 510px) {
+
+.menu {
+  margin-left: 0px;
+}
+}
+
+
+
+@media screen and (min-width: 410px) and (max-width: 510px) {
+
+  .filter:nth-child(4) {
+  max-width: 280px;
+}
+
+  .filter:nth-child(2) {
+    min-width: 180px;
+  }
+}
+
+@media screen and  (max-width: 510px) {
   body {
     margin: 0px;
   }
@@ -671,8 +729,9 @@ ul {
   }
 
   .navinscrire {
-    margin-left: -155px;
-    margin-top: -40px;
+    position: absolute;
+    top: 30px;
+    right: 0;
     font-size: 20px;
     width: auto;
   }
@@ -703,6 +762,11 @@ ul {
 
   input[type="submit"] {
     display: none;
+  }
+
+  header h1 {
+    font-size: 22px;
+    width: 300px;
   }
 
   .boutonmobil {
@@ -817,8 +881,7 @@ ul {
 
 
 
-  .article2 {
-    padding-left: 1%;
+  .article2 { 
     background-color: #f2f2f2;
     border-radius: 0px;
     width: 100%;
@@ -857,7 +920,7 @@ ul {
   }
 
   .responsive {
-    height: 130px;
+    height: 150px;
     width: 100%;
   }
 
