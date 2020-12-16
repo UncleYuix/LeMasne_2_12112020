@@ -290,7 +290,7 @@ input[type="submit"] {
 .droite {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 3%;
+  justify-content: center;
   align-items: center;
 }
 
@@ -497,24 +497,11 @@ ul {
   }
 }
 
-@media screen and (min-width: 485px) and (max-width: 500px) {
-
-.article2 {
-  margin-right: 40px;
-
-
-}
-}
 
 
 
   @media screen and (min-width: 500px) and (max-width: 620px) {
-    .droite,
-    .motel,
-    .article2 {
-      width: 80%;
-      margin-left: 100px ;
-    }
+  
   
     nav {
       display: flex;
@@ -591,7 +578,8 @@ ul {
 
   .droite {
  width: 100%;
-margin-left: -100px ;
+ margin-left: 0%;
+ justify-content: center;
   }
 
   .sousmotel {
@@ -601,6 +589,8 @@ margin-left: -100px ;
   .article2 {
     background-color: white;
     margin-left: 0;
+    width: 90%;
+   
   }
 
   .article1 {
@@ -694,7 +684,11 @@ margin-left: -100px ;
   .navrespon {
     margin-left: -48px;
     font-size: 20px;
+  }
+
+  .entete {
     border-bottom: 3px solid rgb(187, 184, 184);
+    margin-right: 0;
   }
 
   .navrespon li:first-child a:hover {
@@ -821,19 +815,14 @@ margin-left: -100px ;
     width: 80%;
   }
 
-  .article2,
-  .logement,
-  .droite,
-  .motel,
-  .sousmotel {
-    margin-left: -5px;
-  }
+
 
   .article2 {
     padding-left: 1%;
     background-color: #f2f2f2;
     border-radius: 0px;
     width: 100%;
+    margin-left: 0;
   }
 
   .article2 img {
