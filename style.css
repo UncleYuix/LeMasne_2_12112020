@@ -667,6 +667,22 @@ ul {
     margin-left: 1%;
   }
 
+
+  .recherche,
+  .soustitre, 
+  #recherche,
+  nav img {
+    margin-left: 30px;
+  }
+
+  .soustitre h1 {
+    width: 450px;
+  }
+
+  .soustitre h2 {
+    font-size: 20px;
+  }
+
   .entete {
     font-size: 20px;
     display: flex;
