@@ -37,6 +37,10 @@ h4 {
   font-size: 20px;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 h5 {
   font-size: 20px;
   margin-left: 20px;
@@ -99,7 +103,7 @@ nav {
 }
 
 .navinscrire a {
-  color: blue;
+  color: #0065FC;
 }
 
 /* ------ header ---------*/
@@ -109,8 +113,8 @@ header {
 }
 
 h2 {
-  opacity: 0.4;
-  padding-top: 10px;
+  opacity: 0.8;
+  padding-bottom: 10px;
 }
 
 .ici {
@@ -141,6 +145,7 @@ h2 {
 input[type="text"] {
   font-size: 20px;
   padding-left: 20px;
+  border: 0.1px solid rgb(231, 227, 227);
 }
 
 input[type="submit"] {
@@ -149,6 +154,9 @@ input[type="submit"] {
   color: white;
   height: 50px;
   font-size: 20px;
+  border: none; 
+  border-width: 0; 
+  box-shadow: none;
 }
 
 .boutonmobil {
@@ -178,7 +186,7 @@ input[type="submit"] {
 
 .filter {
   display: flex;
-  border: 1px solid rgb(151, 215, 231);
+  border: 1px solid rgb(179, 196, 201);
   border-radius: 50px;
   width: auto;
   height: 50px;
@@ -191,7 +199,7 @@ input[type="submit"] {
   align-items: center;
   padding-left: 40px;
   font-size: 25px;
-  margin-top: 8px;
+  margin-bottom: 8px;
   font-weight: bold;
 }
 
@@ -420,6 +428,27 @@ ul {
 /* LE RESPONSIVE DES ACTIVITES */
 
 
+@media screen and (min-width: 2400px) and (max-width: 2561px) {
+  .tourisme img {
+    width: 410px;
+  }
+}
+
+
+@media screen and (min-width: 2200px) and (max-width: 2400px) {
+  .tourisme img {
+    width: 420px;
+  }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2200px) {
+
+  .tourisme img {
+    width: 400px;
+  }
+}
+
+
 @media screen and (min-width: 1900px) and (max-width: 2000px) {
 
   .tourisme img {
@@ -552,6 +581,43 @@ ul {
     margin-right: 10px;
   }
 }
+
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1250px) {
+
+  .navrespon,
+  .navinscrire {
+    padding-top: 40px;
+  }
+
+  .entete a {
+    font-weight: bold;
+  }
+
+  .info i {
+    color: blue;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+  nav img {
+    margin-left: 30px;
+  }
+
+
+  .logements {
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .motel img {
+    width: 150px;
+  }
+}
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1450px) {
   .article2 {
@@ -725,6 +791,17 @@ ul {
   }
 }
 
+@media screen and (min-width: 500px) and (max-width: 510px) {
+
+.hotel {
+  margin-right: 0;
+}
+
+motel {
+  margin-right: 0;
+}
+}
+
 @media screen and (min-width: 470px) and (max-width: 510px) {
   .menu {
     margin-left: 0px;
@@ -791,12 +868,13 @@ ul {
 
   .navrespon li:first-child a:hover {
     padding-bottom: 20px;
-    border-bottom: 5px solid blue;
+    border-bottom: 4px solid blue;
+ 
   }
 
   .navrespon li:last-child a:hover {
     padding-bottom: 20px;
-    border-bottom: 5px solid grey;
+    border-bottom: 4px solid grey;
   }
 
   input[type="submit"] {
@@ -869,10 +947,6 @@ ul {
     font-size: 20px;
   }
 
-  h3 {
-    font-size: 25px;
-    margin-left: 20px;
-  }
 
   #hebergements {
     width: 200px;
@@ -932,6 +1006,10 @@ ul {
 
   #Activites {
     padding-left: 20px;
+  }
+
+  h5 {
+    margin-left: 0;
   }
 
   .tourisme h5 {
