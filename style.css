@@ -225,7 +225,7 @@ input[type="submit"] {
   background-color: #f2f2f2;
   max-width: 60%;
   border-radius: 20px;
-  }
+}
 
 #Hebergements {
   margin-left: 40px;
@@ -375,8 +375,6 @@ input[type="submit"] {
   border-radius: 20px 20px 20px 20px;
 }
 
-
-
 .acti p {
   padding-bottom: 20px;
 }
@@ -411,44 +409,105 @@ ul {
   font-weight: bold;
 }
 
-
-
 @media screen and (min-width: 1300px) and (max-width: 1578px) {
-
   .hotel img {
-   width: 200px;
+    width: 200px;
   }
- }
- 
- 
- 
- @media screen and (min-width: 1635px) and (max-width: 1789px) {
- 
-   .tourisme img {
-   width: 350px;
- 
-   }
- }
- 
- @media screen and (min-width: 1535px) and (max-width: 1635px) {
- 
-   .tourisme img {
-   width: 320px;
- 
-   }
- }
- 
- @media screen and (min-width: 1250px) and (max-width: 1551px) {
-   .tourisme img {
-     width: 240px;
-   }
- }
- 
+}
+
+
+
+/* LE RESPONSIVE DES ACTIVITES */
+
+
+@media screen and (min-width: 1900px) and (max-width: 2000px) {
+
+  .tourisme img {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 1830px) and (max-width: 1900px) {
+
+  .tourisme img {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1750px) and (max-width: 1830px) {
+
+  .tourisme img {
+    width: 345px;
+  }
+}
+
+@media screen and (min-width: 1670px) and (max-width: 1750px) {
+
+  .tourisme img {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1670px) {
+
+  .tourisme img {
+    width: 315px;
+  }
+}
+
+
+@media screen and (min-width: 1530px) and (max-width: 1600px) {
+
+  .tourisme img {
+    width: 305px;
+  }
+}
+
+
+@media screen and (min-width: 1460px) and (max-width: 1530px) {
+
+  .tourisme img {
+    width: 290px;
+  }
+}
+
+@media screen and (min-width: 1430px) and (max-width: 1460px) {
+  .tourisme img {
+    width: 289px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1390px) and (max-width: 1430px) {
+  .tourisme img {
+    width: 279px;
+  }
+}
+
+@media screen and (min-width: 1320px) and (max-width: 1390px) {
+  .tourisme img {
+    width: 271px;
+  }
+}
+
+
+  
+@media screen and (min-width: 1280px) and (max-width: 1320px) {
+  .tourisme img {
+    width: 260px;
+  }
+}
+
+
+/* fun du responsive qui rend fou */
+
+
 
 
 
 @media screen and (min-width: 2060px) {
-
   body {
     max-width: 2060px;
     margin-left: 10%;
@@ -457,11 +516,9 @@ ul {
 
 
 
+
 @media screen and (min-width: 1250px) {
-  .responsiiive {
-    width: 100%;
-    height: auto;
-  }
+
 
   .navrespon,
   .navinscrire {
@@ -480,7 +537,7 @@ ul {
 
   nav,
   header,
-  .logements{
+  .logements {
     margin-right: 3%;
     margin-left: 3%;
   }
@@ -496,11 +553,7 @@ ul {
   }
 }
 
-
-
-
-
-@media screen and (min-width: 1024px) and (max-width: 1350px) {
+@media screen and (min-width: 1024px) and (max-width: 1450px) {
   .article2 {
     width: 38%;
   }
@@ -510,42 +563,35 @@ ul {
   }
 }
 
-
 @media screen and (min-width: 510px) and (max-width: 714px) {
-
   .navinscrire {
     position: absolute;
     top: 0;
     right: 0;
     font-size: 20px;
-  
   }
 }
 
-  @media screen and (min-width: 643px) and (max-width: 714px) {
-    .navrespon {
-      margin-top: 40px;
-    }
+@media screen and (min-width: 643px) and (max-width: 714px) {
+  .navrespon {
+    margin-top: 40px;
+  }
+}
 
+@media screen and (min-width: 510px) and (max-width: 620px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  @media screen and (min-width: 510px) and (max-width: 620px) {
-  
-  
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-    .mobilefilters {
-      margin-bottom: 10px;
-    }
-
-    .tourisme {
-      
-      width: 100%;
-    }
+  .mobilefilters {
+    margin-bottom: 10px;
   }
+
+  .tourisme {
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 510px) and (max-width: 1024px) {
   nav,
@@ -601,8 +647,6 @@ ul {
     padding-right: 10px;
   }
 
- 
-
   .gauche {
     align-items: center;
   }
@@ -615,9 +659,9 @@ ul {
   }
 
   .droite {
- width: 100%;
- margin-left: 0%;
- justify-content: center;
+    width: 100%;
+    margin-left: 0%;
+    justify-content: center;
   }
 
   .sousmotel {
@@ -628,7 +672,6 @@ ul {
     background-color: white;
     margin-left: 0;
     width: 90%;
-   
   }
 
   .article1 {
@@ -683,26 +726,22 @@ ul {
 }
 
 @media screen and (min-width: 470px) and (max-width: 510px) {
-
-.menu {
-  margin-left: 0px;
+  .menu {
+    margin-left: 0px;
+  }
 }
-}
-
-
 
 @media screen and (min-width: 410px) and (max-width: 510px) {
-
   .filter:nth-child(4) {
-  max-width: 280px;
-}
+    max-width: 280px;
+  }
 
   .filter:nth-child(2) {
     min-width: 180px;
   }
 }
 
-@media screen and  (max-width: 510px) {
+@media screen and (max-width: 510px) {
   body {
     margin: 0px;
   }
@@ -811,7 +850,7 @@ ul {
     font-size: 20px;
   }
 
- /* article 1 */
+  /* article 1 */
 
   .logements {
     display: flex;
@@ -820,8 +859,6 @@ ul {
     background: white;
     width: 100%;
   }
-
-  
 
   .populaire {
     font-size: 30px;
@@ -839,9 +876,7 @@ ul {
 
   #hebergements {
     width: 200px;
-
   }
-
 
   .gauche {
     background: white;
@@ -861,7 +896,7 @@ ul {
   }
 
   .article1 {
-  max-width: 100%;
+    max-width: 100%;
   }
 
   /* article2 */
@@ -870,7 +905,6 @@ ul {
     flex-direction: column;
   }
 
- 
   .motel {
     flex-direction: row;
     margin: 0px;
@@ -879,9 +913,7 @@ ul {
     width: 80%;
   }
 
-
-
-  .article2 { 
+  .article2 {
     background-color: #f2f2f2;
     border-radius: 0px;
     width: 100%;
@@ -892,9 +924,7 @@ ul {
     width: 40%;
   }
 
-
   /* ---------- article3 mobile --------- */
-
 
   .article3 {
     margin: 1%;
@@ -939,18 +969,14 @@ ul {
     padding-top: 20px;
     flex-direction: column;
     width: 100%;
+    margin-top: 0;
   }
 }
 
-  
-
-@media screen and  (max-width: 370px) {
-  
-  
+@media screen and (max-width: 370px) {
   input[type="text"] {
     width: 160px;
   }
-
 
   h1 {
     font-size: 20px;
@@ -983,12 +1009,9 @@ ul {
     margin-left: -140px;
   }
 
-
   .navrespon {
     margin-left: -60px;
   }
-
-
 
   .hotel img {
     width: 280px;
@@ -998,8 +1021,6 @@ ul {
     width: 100%;
   }
 
-  
-
   filter:nth-child(4) {
     width: 90%;
   }
@@ -1007,18 +1028,15 @@ ul {
   .mobilefilters {
     display: flex;
     flex-direction: column;
-    
   }
-
 
   footer {
     width: 100%;
   }
 }
 
-@media screen and  (max-width: 340px) {
-
-.article1 {
-  margin-left: 5px;
-}
+@media screen and (max-width: 340px) {
+  .article1 {
+    margin-left: 5px;
+  }
 }
