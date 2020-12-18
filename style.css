@@ -417,6 +417,21 @@ ul {
   font-weight: bold;
 }
 
+
+@media screen and (min-width: 1300px) {
+  
+  .footing {
+  justify-content: flex-start;
+  }
+
+  .footing ul {
+    margin-right: 200px;
+    margin-left: 30px;
+  }
+
+}
+
+
 @media screen and (min-width: 1300px) and (max-width: 1578px) {
   .hotel img {
     width: 200px;
