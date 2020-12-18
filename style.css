@@ -236,7 +236,7 @@ input[type="submit"] {
 }
 
 #Hebergements {
-  margin-left: 40px;
+  margin-left: 50px;
   margin-bottom: 2px;
 }
 .gauche {
@@ -247,7 +247,7 @@ input[type="submit"] {
 
 .hotel img {
   border-radius: 20px 20px 0 0;
-  width: 260px;
+  width: 292px;
   height: 120px;
   cursor: pointer;
   border: 8px solid white;
@@ -255,9 +255,14 @@ input[type="submit"] {
   object-fit: cover;
 }
 
-.logements .fas {
+.text-bleu i {
   color: blue;
 }
+
+.text-gris i {
+  color: rgb(190, 190, 190)
+}
+
 
 .hotel {
   background-color: white;
@@ -286,6 +291,7 @@ input[type="submit"] {
 
 .afficher a {
   font-weight: bold;
+  margin-left: -15px;
 }
 
 .article2 {
@@ -307,6 +313,10 @@ input[type="submit"] {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+.populaire h4 {
+  margin-left: -25px;
 }
 
 .populaire .fas {
@@ -391,6 +401,7 @@ input[type="submit"] {
   height: 555px;
 }
 
+
 /* ----------foooter ------------ */
 
 .footing {
@@ -427,6 +438,10 @@ ul {
   .footing ul {
     margin-right: 200px;
     margin-left: 30px;
+  }
+
+  .article3 h5 {
+    margin-left: -1px;
   }
 
 }
