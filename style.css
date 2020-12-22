@@ -229,20 +229,27 @@ input[type="submit"] {
   margin-top: 50px;
 }
 
+#Hebergements {
+  margin-left: 10px;
+}
+
+
+
 .article1 {
   background-color: #f2f2f2;
   max-width: 60%;
   border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
 }
 
-#Hebergements {
-  margin-left: 50px;
-  margin-bottom: 2px;
-}
+
+ 
 .gauche {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  
 }
 
 .hotel img {
@@ -285,7 +292,7 @@ input[type="submit"] {
 
 .afficher {
   margin-bottom: 10px;
-  padding-left: 6%;
+  padding-left: 20px;
   font-size: 15px;
 }
 
@@ -299,6 +306,7 @@ input[type="submit"] {
   border-radius: 20px;
   width: 30%;
   margin-left: 40px;
+  padding-bottom: 20px;
 }
 
 .droite {
@@ -446,21 +454,60 @@ ul {
 
 }
 
+@media screen and (min-width: 1745px) and (max-width: 1841px) {
+  .hotel img {
+  width: 270px;
+  }
+}
 
-@media screen and (min-width: 1300px) and (max-width: 1578px) {
+@media screen and (min-width: 1672px) and (max-width: 1745px) {
+  .hotel img {
+    width: 260px;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1672px) {
+  .hotel img {
+    width: 245px;
+  }
+}
+
+@media screen and (min-width: 1530px) and (max-width: 1600px) {
+  .hotel img {
+    width: 232px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1530px) {
+  .hotel img {
+    width: 215px;
+  }
+}
+
+
+@media screen and (min-width: 1350px) and (max-width: 1440px) {
   .hotel img {
     width: 200px;
   }
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1350px) {
+  .hotel img {
+    width: 188px;
+  }
 
+  .gauche {
+   
+    padding-left: 0;
+  }
+}
 
 /* LE RESPONSIVE DES ACTIVITES */
 
 
 @media screen and (min-width: 2400px) and (max-width: 2561px) {
   .tourisme img {
-    width: 410px;
+    width: 422px;
   }
 }
 
@@ -482,35 +529,35 @@ ul {
 @media screen and (min-width: 1900px) and (max-width: 2000px) {
 
   .tourisme img {
-    width: 375px;
+    width: 387px;
   }
 }
 
 @media screen and (min-width: 1830px) and (max-width: 1900px) {
 
   .tourisme img {
-    width: 360px;
+    width: 375px;
   }
 }
 
 @media screen and (min-width: 1750px) and (max-width: 1830px) {
 
   .tourisme img {
-    width: 345px;
+    width: 365px;
   }
 }
 
 @media screen and (min-width: 1670px) and (max-width: 1750px) {
 
   .tourisme img {
-    width: 330px;
+    width: 350px;
   }
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1670px) {
 
   .tourisme img {
-    width: 315px;
+    width: 332px;
   }
 }
 
@@ -518,7 +565,7 @@ ul {
 @media screen and (min-width: 1530px) and (max-width: 1600px) {
 
   .tourisme img {
-    width: 305px;
+    width: 322px;
   }
 }
 
@@ -526,7 +573,7 @@ ul {
 @media screen and (min-width: 1460px) and (max-width: 1530px) {
 
   .tourisme img {
-    width: 290px;
+    width: 304px;
   }
 }
 
@@ -994,12 +1041,16 @@ motel {
   }
 
 
-  #hebergements {
-    width: 200px;
+  #Hebergements {
+    width: 300px;
+    padding-left: 0;
+    margin-left: 4%;
   }
 
   .gauche {
     background: white;
+    padding-left: 0;
+    justify-content: center;
   }
 
   .hotel img {
@@ -1009,6 +1060,7 @@ motel {
   .article1,
   .gauche {
     background-color: white;
+    padding: 0;
   }
 
   .afficher {
